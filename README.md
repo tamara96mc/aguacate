@@ -1,6 +1,6 @@
-# Proyecto web carta online
+# Proyecto carta online
 
-Este proyecto cuenta con tres vista
+Este proyecto cuenta con las siguientes vistas:
 
 ## Home 
 
@@ -22,5 +22,10 @@ Podemos ponernos en contacto con el restaurante a través de un formulario, adem
     git clone https://github.com/tamara96mc/aguacate.git
 
 La **demo** está disponible en https://tamara96mc.github.io/aguacate/
+
+**Librerias utilizadas**
+
+- Bootstrap
+- Awesome icon
 
 ![aguacate_icon](https://user-images.githubusercontent.com/60045207/134821080-32712fe7-2ae6-4f39-b8a5-6fcf6a4335ba.png)
