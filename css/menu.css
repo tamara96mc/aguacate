@@ -1,14 +1,16 @@
+/*
+TAMARA MONTERO CANO
+26/09/2021
+Estilos de la carta
+*/
 
 body{
-
     margin: 0;
     width: 100vw;
     height: 100vh;
 }
 
-
 #header{
-
     background-color:#fbeb8b;
     display: flex;
     justify-content: space-around;
@@ -17,30 +19,25 @@ body{
 }
 
 #logo{
-
     width: 6vw;
     margin-left: 2%;
 }
 
 #btn_reserva{
-
     padding: 1% 2% 1% 2%;
     background-color: #c4643c;
     color: #fbeb8b;
     border: 2x solid #a04b27;
     border-radius: 50%;
-
 }
 
 .cuerpo{
     width: 100%;
     height: 100%;
-    background-color:#f1b9cc;
-    
+    background-color:#f1b9cc;  
 }
 
 h1{
-
     position: relative;
     align-self: center;
     z-index: 1;
@@ -50,29 +47,17 @@ h1{
 }
 
 .row{
-    
     background-color:#f1b9cc;
     margin: 0;
 }
 
-.fila_1{
-
-    display: flex;
-    flex-direction: column;
-}
-
-img{
-
-    margin: 0%;
+.card-body{
+    margin: 2%;
 }
 
 
-p, h2,h1, a, button, label{
-
+/* CAMBIO DE TIPO DE LETRA A TODOS LOS ELEMENTOS */
+p, h2, h1, a, button, label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-.card-body{
-
-    margin: 2%;
-}
