@@ -4,6 +4,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color:rgb(44, 42, 44);
+    overflow-x:hidden;
 
 }
 
@@ -20,7 +21,7 @@ body{
     padding: 1% 2% 1% 2%;
     background-color: #c4643c;
     color: #fbeb8b;
-    border: 1px solid #b4bc51;
+    border: 2x solid #a04b27;
     border-radius: 50%;
 
 }
@@ -59,7 +60,7 @@ background-color: rgb(216, 101, 116);
 
 .comida{
 
-    background-color:#d37444;
+    background-color:#f1b9cc;
 
 }
 
@@ -150,6 +151,7 @@ p, h2,h1, a, button{
 
 .header{
 
+    position: relative;
     height: 10%;
     background-color:#fbeb8b;
     display: flex;

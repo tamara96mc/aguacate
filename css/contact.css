@@ -4,6 +4,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color:#f1b9cc;
+    overflow-x:hidden;
 }
 
 
@@ -35,7 +36,7 @@ body{
     padding: 1% 2% 1% 2%;
     background-color: #c4643c;
     color: #fbeb8b;
-    border: 1px solid #b851bc;
+    border: 2x solid #a04b27;
     border-radius: 50%;
 
 }
