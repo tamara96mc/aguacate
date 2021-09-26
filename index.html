@@ -20,9 +20,10 @@
 
 <body>
 
-    <div id="containe">
 
-        <div id="header">
+    <div id="cuerpo">
+
+        <div class="row header">
 
             <img id="logo" src="./img/aguacate_icon.png" alt="Logo">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -38,7 +39,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item d-flex align-items-center justify-content-center">
-                                <a class="nav-link" href="#">Carta</a>
+                                <a class="nav-link" href="./pages/menu.html">Carta</a>
                             </li>
                             <li class="nav-item d-flex align-items-center justify-content-center">
                                 <a class="nav-link" href="pages/contact.html">Contacto</a>
@@ -50,70 +51,73 @@
             <button id="btn_reserva">Reservar</button>
         </div>
 
-        <div id="cuerpo">
-
-            <div class="row portada">
-                <img id="img_portada" src="./img/portada.jpg" alt="">
-                <h1> BIENVENIDO A AGUA-CATE</h1>
+        <div class="row portada">
+            <img id="img_portada" src="./img/portada.jpg" alt="">
+            <h1> BIENVENIDO A AGUA-CATE</h1>
+        </div>
+        <div class="row comida">
+            <div class="col col_comida">
+                <img id="img_comida1" src="./img/salad-1264107_1920.jpg" alt="">
             </div>
-            <div class="row comida">
-                <div class="col col_comida">
-                    <img id="img_comida1" src="./img/salad-1264107_1920.jpg" alt="">
-                </div>
-                <div class="col texto_comida">
-                    <p id="texto_comida">Alimentos frescos de primera calidad.</p>
-                </div>
+            <div class="col texto_comida justify-content-center">
+                <p id="texto_comida">Alimentos frescos de primera calidad.</p>
             </div>
-            <div class="row comida">
-                <div class="col texto_comida">
-                    <p id="texto_comida">Productos locales de la huerta a la mesa.</p>
-                </div>
-                <div class="col col_comida">
-                    <img id="img_comida2" src="./img/taco-4828272_1920.jpg" alt="">
-                </div>
+        </div>
+        <div class="row comida">
+            <div class="col texto_comida justify-content-center">
+                <p id="texto_comida">Productos locales de la huerta a la mesa.</p>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <img src="img/p1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Rubén Calle</h5>
-                            <p class="card-text">Todo muy rico y buen servicio.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="img/p2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Raquel Toledo</h5>
-                            <p class="card-text">Un servicio muy bueno y lugar limpio.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="">
-                        <img src="img/p3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Javi Torres</h5>
-                            <p class="card-text">Para repetar sin duda, me ha encantado.</p>
-                        </div>
+            <div class="col col_comida">
+                <img id="img_comida2" src="./img/taco-4828272_1920.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="img/p1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rubén Calle</h5>
+                        <p class="card-text">Todo muy rico y buen servicio.</p>
                     </div>
                 </div>
             </div>
-            <div class="row footer">
-                <div class="col c_footer">
-                    <h2>Ubicación</h2>
-                    <p>Calle Benicarló, Nº 10, 46024, Valencia (España)</p>
+            <div class="col">
+                <div class="card">
+                    <img src="img/p2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Raquel Toledo</h5>
+                        <p class="card-text">Un servicio muy bueno y lugar limpio.</p>
+                    </div>
                 </div>
-                <div class="col c_footer">
-                    <h2>Horario</h2>
-                    <p>De 10 AM a 4 PM y de 6 PM a 12 PM </p>
+            </div>
+            <div class="col">
+                <div class="card" style="">
+                    <img src="img/p3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Javi Torres</h5>
+                        <p class="card-text">Para repetar sin duda, me ha encantado.</p>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <div class="row footer">
+            <div class="col c_footer">
+                <h2>Ubicación</h2>
+                <p>Calle Benicarló, Nº 10, 46024, Valencia (España)</p>
+            </div>
+            <div class="col c_footer">
+                <h2>Horario</h2>
+                <p>De 10 AM a 4 PM y de 6 PM a 12 PM </p>
+            </div>
+        </div>
+        <div class="row row_copy_right justify-content-center">
+            <div class="col mt-4">
+                <p>AGUA-CATE 2021 - Todos los derechos reservados.</p>
+            </div>
+        </div>
     </div>
+
+
 
 </body>
 

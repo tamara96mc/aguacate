@@ -3,30 +3,11 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color:rgb(44, 42, 44);
 
 }
 
 
-#containe{
-
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(25, 0, 255);
-
-}
-
-#header{
-
-    position: relative ;
-    width: 100%;
-    height: 10%;
-    background-color:#fbeb8b;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 #logo{
 
@@ -45,15 +26,14 @@ body{
 }
 
 #cuerpo{
-    position: relative;
     width: 100%;
-    height: 65%;
-    background-color: rgb(202, 202, 37);
+    height: 100%;
+    background-color: rgb(202, 130, 37);
 }
 
 .row{
     background-color: #b4bc51;
-
+    margin: 0;
 }
 
 .col{
@@ -116,9 +96,7 @@ img{
 
 #texto_comida{
 
-    position: relative;
-    left: 20%;
-    display: flex;
+    display: grid;
     align-self: center;
     font-size: x-large;
    
@@ -141,7 +119,7 @@ img{
 .footer{
 
     width: 100%;
-    height: 25%;
+    height: 20%;
     background-color: rgb(22, 21, 22);
 
 }
@@ -156,9 +134,28 @@ img{
     padding-bottom: 2%;
 
 }
+
+.row_copy_right{
+
+    width: 100%;
+    height: 10%;
+    background-color: rgb(44, 42, 44);
+    color: rgb(255, 255, 255);
+    display: grid;
+}
 p, h2,h1, a, button{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.header{
+
+    height: 10%;
+    background-color:#fbeb8b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
 }
 
 @media (max-width: 800px) {
